@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Site</title>
+  <style>
+    
+    html, body {
+      width: 100%;
+      height: 100%;
+      margin: 0;
+    }
+    
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      height: 100%;
+    }
+
+    td {
+      border: 1px solid white;
+      text-align: center;
+      vertical-align: middle;
+    }
+
+    /* Célula 1 - quadrado */
+    .c1 {
+      width: 200px;
+      height: 200px;
+      background-color: rgb(228, 98, 98);
+    }
+
+    /* Célula 2 - retângulo */
+    .c2 {
+      width: 400px;
+      height: 200px;
+      background-color: rgb(228, 98, 98);
+    }
+
+    .c3 {
+      background-color: rgb(228, 98, 98);
+    }
+
+    .c4 {
+      background-color: rgb(228, 98, 98);
+    }
+    .c1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.c2 video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.c3 a {
+  display: block;
+  background-color: #ba67bd;
+  color: rgb(41, 4, 77);
+  text-decoration: none;
+  padding: 10px;
+  margin: 5px 0;
+  text-align: center;
+  border-radius: 6px;
+}
+
+.c3 a:hover {
+  background-color: #1976D2;
+}
+
+.c4 iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+  </style>
+</head>
+<body>
+<table>
+  <tr>
+    <td class="c1">
+  <img src="logo.png" alt="Imagem da célula 1">
+</td>
+
+    <td class="c2">
+  <video autoplay loop muted>
+    <source src="star.mp4" type="video/mp4">
+    Seu navegador não suporta vídeo.
+  </video>
+</td>
+
+  
+  <tr>
+  <td class="c3">
+  <a href="https://www.tecmundo.com.br/ciencia/243469-nomes-estrelas-confira-10-conhecidas-galaxia.htm" target="conteudo">
+    Abrir TecMundo
+  </a><br>
+  <a href="https://starwalk.space/pt/news/top-7-brightest-stars-in-the-sky target=" target="conteudo">
+    Abrir Star Walks
+  </a><br>
+    <a href="https://www.espacotempo.com.br/as-10-estrelas-mais-brilhantes-do-ceu/" target="conteudo">
+      Abrir Espacotempos
+</a><br>
+<a href="https://moroccoastrotours.com/10-famous-stars-in-the-sky/" target="conteudo">
+   Abrir Marocco 
+  </a><br>
+<a href="https://forms.gle/EZY7wYVqyU6MzaaJ9"
+   target="conteudo">
+  Fale Conosco
+</a>
+
+
+</td>
+    <td class="c4">
+  <iframe name="conteudo"></iframe>
+  
+
+
+</td>
+  </tr>
+</table>
+</body>
+</html>
